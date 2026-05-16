@@ -1,0 +1,48 @@
+/* --- RESET DO CSS --- */
+* {
+    border: 0; /* Borda do Elemento -> Zeramos */
+    margin: 0; /* Distância externa -> Zeramos */
+    padding: 0; /* Espaçamento interno -> Zeramos */
+    box-sizing: border-box; /* respeitar Largura e altura */
+}
+
+/* --- VARIÁVEIS CSS --- */
+:root {
+
+    /* --- Cores --- */
+    --color-primary: #4CAF4F; /* Verde principal dos botões e destaques */
+    --color-primary-hover: #388E3C; /* Verde escuro para o efeito hover */
+    --color-primary-light: #E8F5E9; /* Verde claro para fundos e badges */
+    --color-neutral-title: #4D4D4D; /* Cinza escuro para títulos */
+    --color-neutral-body: #717171; /* Cinza médio para textos e parágrafos */
+    --color-neutral-light: #8993A4; /* Cinza claro para subtítulos menores */
+    --color-bg-white: #FFFFFF; /* Fundo branco padrão */
+    --color-bg-light: #F5F7FA; /* Fundo cinza claro de seções alternadas */
+
+    /* --- FONTES --- */
+    /* -- SIZE -- */
+    --font-size-h1: 40px; /* Título principal da seção de destaque */
+    --font-size-h2: 28px; /* Títulos intermediários das seções */
+    --font-size-h3: 20px; /* Títulos dos cards e pequenos blocos */
+    --font-size-body: 14px; /* Texto padrão dos parágrafos */
+    --font-size-button: 14px; /* Texto interno dos botões */
+    --font-size-caption: 12px; /* Textos de legenda e labels menores */
+
+    /* -- WEIGHT -- */
+    --font-weight-h1: 700; /* Variável Espessura da fonte -> Bold */
+    --font-weight-h2: 600; /* Variável Espessura da fonte -> SemiBold */
+    --font-weight-h3: 600; /* Variável Espessura da fonte -> SemiBold */
+    --font-weight-body: 400; /* Variável Espessura da fonte -> Regular */
+    --font-weight-button: 500; /* Variável Espessura da fonte -> Medium */
+    --font-weight-caption: 400; /* Variável Espessura da fonte -> Regular */
+
+    /* FAMILY */
+    --font-family-primary: "Inter", sans-serif; /* Variável família da fonte */
+
+    /* --- OUTROS DESIGN TOKENS --- */
+    --container-max-width: 1152px; /* Largura máxima útil da Landing Page */
+    --border-radius-sm: 4px; /* Raio de borda para elementos pequenos */
+    --border-radius-md: 6px; /* Raio de borda para botões */
+    --border-radius-lg: 8px; /* Raio de borda para os cards */
+
+}
