@@ -10,39 +10,87 @@
 :root {
 
     /* --- Cores --- */
-    --color-primary: #4CAF4F; /* Verde principal dos botões e destaques */
-    --color-primary-hover: #388E3C; /* Verde escuro para o efeito hover */
-    --color-primary-light: #E8F5E9; /* Verde claro para fundos e badges */
-    --color-neutral-title: #4D4D4D; /* Cinza escuro para títulos */
-    --color-neutral-body: #717171; /* Cinza médio para textos e parágrafos */
-    --color-neutral-light: #8993A4; /* Cinza claro para subtítulos menores */
-    --color-bg-white: #FFFFFF; /* Fundo branco padrão */
-    --color-bg-light: #F5F7FA; /* Fundo cinza claro de seções alternadas */
+    /* Neutrais (Neutral) */
+    --color-neutral-black: #263238;
+    --color-neutral-d-grey: #4D4D4D;
+    --color-neutral-grey: #717171;
+    --color-neutral-l-grey: #89939E;
+    --color-neutral-grey-blue: #ABBED1;
+    --color-neutral-silver: #F5F7FA;
+    --color-neutral-white: #FFFFFF;
+    --color-black-text: #18191F;
+
+    /* Principais (Primary, Secondary, Info) */
+    --color-primary: #28CB8B;
+    --color-secondary: #263238;
+    --color-info: #2194F3;
+
+    /* Variações Escuras (Color Shade) */
+    --color-shade-1: #43A046;
+    --color-shade-2: #388E3B;
+    --color-shade-3: #237D31;
+    --color-shade-4: #1B5E1F;
+    --color-shade-5: #103E13;
+
+    /* Variações Claras (Color Tint) */
+    --color-tint-1: #66BB69;
+    --color-tint-2: #81C784;
+    --color-tint-3: #A5D6A7;
+    --color-tint-4: #C8E6C9;
+    --color-tint-5: #E8F5E9;
+
+    /* Ações (Action) */
+    --color-action-warning: #FBC02D;
+    --color-action-error: #E53835;
+    --color-action-success: #2E7D31;
+
 
     /* --- FONTES --- */
     /* -- SIZE -- */
-    --font-size-h1: 40px; /* Título principal da seção de destaque */
-    --font-size-h2: 28px; /* Títulos intermediários das seções */
-    --font-size-h3: 20px; /* Títulos dos cards e pequenos blocos */
-    --font-size-body: 14px; /* Texto padrão dos parágrafos */
-    --font-size-button: 14px; /* Texto interno dos botões */
-    --font-size-caption: 12px; /* Textos de legenda e labels menores */
+    /* Headlines (Semi Bold) */
+    --font-size-h1: 64px; 
+    --font-size-h2: 36px; 
+    --font-size-h3: 28px; 
+    --font-size-h4: 20px; 
+    
+    /* Body (Regular / Medium) */
+    --font-size-body-1: 18px;
+    --font-size-body-2: 16px;
+    --font-size-body-3: 14px;
+    --font-size-body-4: 12px;
+    
+    /* Compatibilidade com as classes antigas */
+    --font-size-body: var(--font-size-body-2);
+    --font-size-button: var(--font-size-body-3);
+
+
+    /* -- LINE HEIGHT -- */
+    --font-line-height-h1: 76px;
+    --font-line-height-h2: 44px;
+    --font-line-height-h3: 36px;
+    --font-line-height-h4: 28px;
+    
+    --font-line-height-body-1: 28px;
+    --font-line-height-body-2: 24px;
+    --font-line-height-body-3: 20px;
+    --font-line-height-body-4: 16px;
+
 
     /* -- WEIGHT -- */
-    --font-weight-h1: 700; /* Variável Espessura da fonte -> Bold */
-    --font-weight-h2: 600; /* Variável Espessura da fonte -> SemiBold */
-    --font-weight-h3: 600; /* Variável Espessura da fonte -> SemiBold */
-    --font-weight-body: 400; /* Variável Espessura da fonte -> Regular */
-    --font-weight-button: 500; /* Variável Espessura da fonte -> Medium */
-    --font-weight-caption: 400; /* Variável Espessura da fonte -> Regular */
+    --font-weight-headline: 600; /* Semi Bold das Headlines */
+    --font-weight-regular: 400;  /* Regular do Body */
+    --font-weight-medium: 500;   /* Medium do Body */
+    
+    /* Compatibilidade com as classes antigas */
+    --font-weight-h1: var(--font-weight-headline);
+    --font-weight-h2: var(--font-weight-headline);
+    --font-weight-h3: var(--font-weight-headline);
+    --font-weight-h4: var(--font-weight-headline);
+    --font-weight-body: var(--font-weight-regular);
+    --font-weight-button: var(--font-weight-medium);
+
 
     /* FAMILY */
     --font-family-primary: "Inter", sans-serif; /* Variável família da fonte */
-
-    /* --- OUTROS DESIGN TOKENS --- */
-    --container-max-width: 1152px; /* Largura máxima útil da Landing Page */
-    --border-radius-sm: 4px; /* Raio de borda para elementos pequenos */
-    --border-radius-md: 6px; /* Raio de borda para botões */
-    --border-radius-lg: 8px; /* Raio de borda para os cards */
 
 }
