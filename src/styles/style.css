@@ -974,82 +974,27 @@ body {
 }
 
 .hero {
-    position: relative;
-    background-color: var(--color-neutral-silver);
-    padding: 96px 0;
-}
-
-.hero::after {
-    content: "";
-    position: absolute;
-    bottom: 32px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 46px;
-    height: 10px;
-    background-image: url("../assets/images/Dot.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+  position: relative;
+  background-color: var(--color-neutral-silver);
+  padding: 96px 0 80px;
 }
 
 .hero-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 80px;
-    min-height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
 }
 
-.hero-content h1 {
-    font-family: var(--font-family-primary);
-    font-size: var(--font-size-h1);
-    line-height: var(--font-line-height-h1);
-    font-weight: var(--font-weight-h1);
-    color: var(--color-neutral-d-grey);
-    margin-bottom: 16px;
+.hero-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
 
-.hero-content h1 span {
-    color: var(--color-shade-1);
-}
-
-.hero-content p {
-    font-family: var(--font-family-primary);
-    font-size: var(--font-size-body-2);
-    line-height: var(--font-line-height-body-2);
-    font-weight: var(--font-weight-body);
-
-    color: var(--color-neutral-grey);
-
-    margin-bottom: 32px;
-}
-
-.hero-content .btn-primary {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 14px 32px;
-    border-radius: 4px;
-    background-color: var(--color-primary);
-    color: var(--color-neutral-white);
-    text-decoration: none;
-
-    font-family: var(--font-family-primary);
-    font-size: var(--font-size-body-2);
-    line-height: var(--font-line-height-body-2);
-    font-weight: var(--font-weight-medium);
-    transition: 0.3s ease;
-}
-
-.hero-content .btn-primary:hover {
-    background-color: var(--color-shade-1);
-}
-
-.hero-image img {
-    width: 390px;
-    max-width: 100%;
-    display: block;
+.hero-dots img {
+  width: 46px;
+  display: block;
 }
 
 /* ═══════════════════════════════════════════════════════════
