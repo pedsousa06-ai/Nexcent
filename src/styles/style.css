@@ -914,11 +914,8 @@ body {
   font-size: var(--font-size-body-1);
   line-height: var(--font-line-height-body-1);
   font-weight: var(--font-weight-medium);
-
   color: var(--color-shade-1);
-
   text-decoration: none;
-
   transition: 0.3s ease;
 }
 
@@ -928,4 +925,51 @@ body {
 
 .update-link span {
   font-size: 22px;
+}
+
+.section-demo {
+  background-color: var(--color-neutral-silver);
+  padding: 64px 0;
+}
+
+.demo-container {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.demo-container h2 {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-h1);
+  line-height: var(--font-line-height-h1);
+  font-weight: var(--font-weight-h1);
+
+  color: var(--color-neutral-black);
+
+  margin-bottom: 32px;
+}
+
+.demo-container .btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 32px;
+  border-radius: 4px;
+  background-color: var(--color-primary);
+  color: var(--color-neutral-white);
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-body-2);
+  line-height: var(--font-line-height-body-2);
+  font-weight: var(--font-weight-medium);
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.demo-container .btn-primary:hover {
+  background-color: var(--color-shade-1);
 }
