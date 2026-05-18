@@ -719,3 +719,110 @@ body {
   background-color: var(--color-shade-1);
   transform: translateY(-1px);
 }
+
+.section-customers {
+  background-color: var(--color-neutral-silver);
+  padding: 80px 0;
+}
+ 
+.customers-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+ 
+/* Imagem esquerda */
+.customers-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+ 
+.customers-image img {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 12px;
+}
+ 
+/* Conteúdo direita */
+.customers-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 480px;
+}
+ 
+.customers-content blockquote {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-body-1);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--font-line-height-body-1);
+  color: var(--color-neutral-d-grey);
+  font-style: italic;
+}
+ 
+.customer-name {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-body-2);
+  font-weight: var(--font-weight-headline);
+  color: var(--color-primary);
+  line-height: var(--font-line-height-body-2);
+}
+ 
+.customer-company {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-body-3);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-neutral-grey);
+  line-height: var(--font-line-height-body-3);
+  margin-top: -16px;
+}
+ 
+/* Logos + link na mesma linha */
+.customers-logos {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+  padding-top: 16px;
+  border-top: 1px solid var(--color-neutral-grey-blue);
+}
+ 
+.customers-logos img {
+  height: 24px;
+  width: auto;
+  object-fit: contain;
+  opacity: 0.55;
+  transition: opacity 0.2s ease;
+  flex-shrink: 0;
+}
+ 
+.customers-logos img:hover {
+  opacity: 1;
+}
+ 
+/* Link dentro da linha de logos */
+.customers-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-body-2);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-primary);
+  text-decoration: none;
+  white-space: nowrap;
+  margin-left: auto;
+  transition: color 0.2s ease, gap 0.2s ease;
+}
+ 
+.customers-link:hover {
+  color: var(--color-shade-1);
+  gap: 10px;
+}
