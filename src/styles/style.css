@@ -982,7 +982,29 @@ body {
   height: 18px;
 }
 
+.hero {
+  position: relative;
+  background-color: var(--color-neutral-silver);
+  padding: 96px 0 80px;
+}
 
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+
+.hero-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.hero-dots img {
+  width: 46px;
+  display: block;
+}
 
 /* ═══════════════════════════════════════════════════════════
    RESPONSIVIDADE
