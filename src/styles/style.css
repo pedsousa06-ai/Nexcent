@@ -253,3 +253,94 @@
   opacity: 1;
 }
 
+.section-community {
+  background-color: var(--color-neutral-white);
+  padding: 80px 0;
+}
+ 
+.section-community .section-header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+ 
+.section-community .section-header h2 {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-headline);
+  line-height: var(--font-line-height-h2);
+  color: var(--color-neutral-d-grey);
+  margin-bottom: 16px;
+}
+ 
+.section-community .section-header p {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-body-2);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--font-line-height-body-2);
+  color: var(--color-neutral-grey);
+}
+ 
+/* Grid de cards */
+.community-cards {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+ 
+/* Card base */
+.community-card {
+  flex: 1;
+  background-color: var(--color-neutral-white);
+  border-radius: 12px;
+  padding: 40px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+ 
+.community-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.14);
+}
+ 
+/* Card ativo (central) */
+.community-card--active {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+}
+ 
+/* Ícone */
+.card-icon {
+  width: 56px;
+  height: 56px;
+  background-color: var(--color-tint-5);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.card-icon img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+ 
+/* Título do card */
+.community-card h3 {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-h4);
+  font-weight: var(--font-weight-headline);
+  line-height: var(--font-line-height-h4);
+  color: var(--color-neutral-d-grey);
+}
+ 
+/* Texto do card */
+.community-card p {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-body-2);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--font-line-height-body-2);
+  color: var(--color-neutral-grey);
+}
