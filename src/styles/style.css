@@ -644,3 +644,78 @@ body {
 /* ── Aliases para compatibilidade com o HTML da stats section ── */
 .stats { padding: 72px 0; }
 .section-padding { padding: 72px 0; }
+
+.section-calendar {
+  background-color: var(--color-neutral-white);
+  padding: 80px 0;
+}
+ 
+.container-calendar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+ 
+/* Imagem esquerda */
+.calendar-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+ 
+.calendar-image img {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+ 
+/* Conteúdo direita */
+.calendar-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 480px;
+}
+ 
+.calendar-content h2 {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-headline);
+  line-height: var(--font-line-height-h2);
+  color: var(--color-neutral-d-grey);
+}
+ 
+.calendar-content p {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-body-2);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--font-line-height-body-2);
+  color: var(--color-neutral-grey);
+}
+ 
+.calendar-content .btn-primary {
+  display: inline-block;
+  align-self: flex-start;
+  text-decoration: none;
+  background-color: var(--color-primary);
+  color: var(--color-neutral-white);
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-body-2);
+  font-weight: var(--font-weight-medium);
+  padding: 12px 32px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+}
+ 
+.calendar-content .btn-primary:hover {
+  background-color: var(--color-shade-1);
+  transform: translateY(-1px);
+}
