@@ -1,52 +1,69 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Nexcent is a community management platform that helps clubs, national associations, and organizations streamline operations, manage memberships, and automate renewals and payments.">
+    <meta name="keywords"
+        content="Nexcent, community management, membership software, association management, automated payments, club management, tech for organizations">
+    <meta name="author" content="Pedro Sousa">
+
+    <link rel="stylesheet" href="./src/styles/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
     <title>Nexcent</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
+
+
+</head>
+
+<body>
 
     <header class="navbar">
 
-      <div class="container nav-container">
+        <div class="container nav-container">
 
-        <div class="logo">
-          <img src="./src/assets/images/Logo.png" alt="Nexcent Logo" />
+            <div class="logo">
+                <img src="./src/assets/images/Nexcent.svg" alt="Nexcent Logo" />
+            </div>
+
+            <nav class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Service</a>
+                <a href="#">Feature</a>
+                <a href="#">Product</a>
+                <a href="#">Testimonial</a>
+                <a href="#">FAQ</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#" class="btn-text">Login</a>
+                <a href="#" class="btn-primary">Sign up</a>
+            </div>
+
         </div>
-
-        <nav class="nav-links">
-          <a href="#">Home</a>
-          <a href="#">Service</a>
-          <a href="#">Feature</a>
-          <a href="#">Product</a>
-          <a href="#">Testimonial</a>
-          <a href="#">FAQ</a>
-        </nav>
-
-        <div class="nav-actions">
-          <a href="#" class="btn-text">Login</a>
-          <a href="#" class="btn-primary">Sign up</a>
-        </div>
-
-      </div>
 
     </header>
 
     <section class="hero bg-silver">
-      <div class="container hero-container">
-        <div class="hero-content">
-          <h1>Lessons and insights <br /><span class="text-primary">from 8 years</span></h1>
-          <p>Where to grow your business as a photographer: site or social media?</p>
-          <a href="#" class="btn btn-primary">Register</a>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Lessons and insights <br><span class="text-primary">from 8 years</span></h1>
+                <p>Where to grow your business as a photographer: site or social media?</p>
+                <a href="#" class="btn btn-primary">Register</a>
+            </div>
+            <div class="hero-image">
+                <img src="./src/assets/images/Illustration.svg" alt="Hero Illustration">
+            </div>
         </div>
-        <div class="hero-image">
-          <img src="./src/assets/images/Illustration.png" alt="Hero Illustration" />
-        </div>
-      </div>
     </section>
-
 
     <section class="section-clients">
         <div class="container">
@@ -81,7 +98,7 @@
                         <img src="./src/assets/images/Icon.svg" alt="Membership Icon">
                     </div>
                     <h3>Membership Organisations</h3>
-                    <p>Our membership management software provides full automation of membership renewals and payments</p>
+                    <p>Our membership management software...</p>
                 </div>
 
                 <div class="community-card community-card--active">
@@ -89,7 +106,7 @@
                         <img src="./src/assets/images/Icon (1).svg" alt="Associations Icon">
                     </div>
                     <h3>National Associations</h3>
-                    <p>Our membership management software provides full automation of membership renewals and payments</p>
+                    <p>Our membership management software...</p>
                 </div>
 
                 <div class="community-card">
@@ -97,7 +114,7 @@
                         <img src="./src/assets/images/Icon (2).svg" alt="Clubs Icon">
                     </div>
                     <h3>Clubs And Groups</h3>
-                    <p>Our membership management software provides full automation of membership renewals and payments</p>
+                    <p>Our membership management software...</p>
                 </div>
 
             </div>
@@ -113,22 +130,28 @@
 
             <div class="unlock-content">
                 <h2>The unseen of spending three years at Pixelgrade</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam
+                    vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
+                    tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam
+                    quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
                 <a href="#" class="btn-primary">Learn More</a>
             </div>
 
         </div>
+
+    </section>
+
     </section>
 
     <section class="stats bg-silver section-padding">
         <div class="container stats-container">
-
             <div class="stats-text">
                 <h2>Helping a local <span class="text-primary">business reinvent itself</span></h2>
                 <p>We reached here with our hard work and dedication</p>
             </div>
-
+            
             <div class="stats-grid">
+                
                 <div class="stat-item">
                     <img src="./src/assets/images/members.svg" alt="Icon">
                     <div class="stat-info">
@@ -136,6 +159,7 @@
                         <p>Members</p>
                     </div>
                 </div>
+
                 <div class="stat-item">
                     <img src="./src/assets/images/clubs.svg" alt="Icon">
                     <div class="stat-info">
@@ -143,6 +167,7 @@
                         <p>Clubs</p>
                     </div>
                 </div>
+
                 <div class="stat-item">
                     <img src="./src/assets/images/eventbookings.svg" alt="Icon">
                     <div class="stat-info">
@@ -150,6 +175,7 @@
                         <p>Event Bookings</p>
                     </div>
                 </div>
+
                 <div class="stat-item">
                     <img src="./src/assets/images/payments.svg" alt="Icon">
                     <div class="stat-info">
@@ -157,9 +183,15 @@
                         <p>Payments</p>
                     </div>
                 </div>
+
             </div>
 
         </div>
+
     </section>
-  </body>
+
+
+
+</body>
+
 </html>
