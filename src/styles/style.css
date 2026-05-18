@@ -450,7 +450,8 @@
 }
  
 .stats-text h2 .text-primary {
-  display: block;
+  display: flex;
+  align-items: center;
   color: var(--color-primary);
 }
  
